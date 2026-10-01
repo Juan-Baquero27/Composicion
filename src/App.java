@@ -9,5 +9,12 @@ public class App {
         vuelo.embarcar("A3");
         vuelo.embarcar("A5");
         vuelo.embarcar("A1");
+
+        System.out.println();
+        vuelo.mostrarAsientos();
+
+        System.out.println();
+        vuelo.desembarcar("A3");
+        vuelo.mostrarAsientos();
     }
 }

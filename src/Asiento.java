@@ -19,7 +19,7 @@ public class Asiento {
     }
 
 
-    public void ocupado() {
+    public void ocupar() {
         if (ocupado) {
             System.out.println("El asiento " + codigo + " ya esta ocupado.");
         } else {
